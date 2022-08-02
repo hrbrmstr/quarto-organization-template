@@ -6,10 +6,5 @@ end
 function Header(el)
     copyResource('logo.png')
     copyResource('space.jpg')
-    if not el.attributes['background-image'] then
-        el.attributes['background-image'] = 'logo.png'
-        el.attributes['background-size'] = 'contain'
-    end
-
     return el
 end
