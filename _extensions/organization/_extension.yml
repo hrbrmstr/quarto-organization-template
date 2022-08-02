@@ -3,6 +3,9 @@ author: "YOU"
 institute: "YOUR ORGANIZATION"
 version: 1.0.0
 contributes:
+  format-resources:
+    - logo.png
+    - space.jpg
   formats:
     revealjs:
       theme: [default, theme.scss]

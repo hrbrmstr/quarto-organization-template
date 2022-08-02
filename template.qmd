@@ -4,7 +4,7 @@ author: "YOU!"
 institute: "YOUR ORGANIZATION"
 date: today
 title-slide-attributes: # this is if you want a background image on the title screen. Use the right path to the image you want
-  data-background-image: "_extensions/organization/space.jpg"
+  data-background-image: "space.jpg"
   data-background-opacity: "0.5"
 format:
   organization-revealjs:
@@ -13,7 +13,7 @@ format:
     slide-number: c/t
     width: 1600
     height: 900
-    logo: "_extensions/organization/logo.png"
+    logo: "logo.png"
     footer: "[YOUR ORG](https://example.com/)"
 ---
 
@@ -23,7 +23,7 @@ options(tidyverse.quiet=TRUE)
 library(tidyverse)
 ```
 
-## { background-image="_extensions/organization/space.jpg" background-opacity="0.5" } 
+## { background-image="space.jpg" background-opacity="0.5" } 
 
 This is a slide with a background image
 
