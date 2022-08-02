@@ -5,6 +5,7 @@ version: 1.0.0
 contributes:
   formats:
     revealjs:
+      filters: [bg.lua] # This is so resources get copied
       theme: [default, theme.scss]
       format-resources:
         - logo.png
