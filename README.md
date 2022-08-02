@@ -15,6 +15,7 @@ A base Quarto template with all the SCSS you need as well as a helpful base qmd 
   - NOTE: if you add/change included assets/resources, make sure to modify `format-resources` in the YAML
 - Replace `_extensions/logo.png` with your logo
 - Replace `_extensions/space.jpg` with a background image (add more if you want easily available ones)
+- Edit `_extensions/bg.lua` to ensure all ^^ resources are copied over (hack until Quarto devs fix the issue)
 - Edit `_extensions/theme.scss`. It's a full theme. Modify background/foreground/etc colors at-will.
 
 In `template.qmd` change:
