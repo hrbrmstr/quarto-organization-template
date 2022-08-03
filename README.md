@@ -1,8 +1,6 @@
 # Easily Customizable Quarto Template 
 
-![preview](preview.png)
-
-A base Quarto template with all the SCSS you need as well as a helpful base qmd with many example slides for cut/paste.
+A base Quarto template with all the SCSS you need as well as a helpful base qmd with many example slides for cut/paste. (Scroll down for preview).
 
 - Clone this repo
 - Delete `.git`
@@ -15,7 +13,7 @@ A base Quarto template with all the SCSS you need as well as a helpful base qmd 
   - NOTE: if you add/change included assets/resources, make sure to modify `format-resources` in the YAML
 - Replace `_extensions/logo.png` with your logo
 - Replace `_extensions/space.jpg` with a background image (add more if you want easily available ones)
-- Edit `_extensions/bg.lua` to ensure all ^^ resources are copied over (hack until Quarto devs fix the issue)
+- Edit `_extensions/copy-resources.lua` to ensure all ^^ resources are copied over (hack until Quarto devs fix the issue)
 - Edit `_extensions/theme.scss`. It's a full theme. Modify background/foreground/etc colors at-will.
 
 In `template.qmd` change:
@@ -40,5 +38,7 @@ mkdir samplepres && \
 ```
 
 You can also `quarto use template hrbrmstr/quarto-organization-template` and customize it on-the-fly.
+
+![preview](preview.png)
 
 Slide Background Photo by Pixabay: https://www.pexels.com/photo/photo-of-galaxy-207529/
