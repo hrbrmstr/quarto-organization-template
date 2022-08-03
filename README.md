@@ -1,6 +1,6 @@
 # Easily Customizable Quarto Template 
 
-A base Quarto template with all the SCSS you need as well as a helpful base qmd with many example slides for cut/paste. (Scroll down for preview).
+A base Quarto template with all the SCSS you need as well as a helpful base qmd with many example slides for cut/paste. (Scroll down for preview image and [go here](https://hrbrmstr.github.io/quarto-organization-template/) for a live preview).
 
 - Clone this repo
 - Delete `.git`
