@@ -1,0 +1,109 @@
+---
+title: "YOUR ORGANIZATION TITLE"
+author: "YOU!"
+institute: "YOUR ORGANIZATION"
+date: today
+title-slide-attributes: # this is if you want a background image on the title screen. Use the right path to the image you want
+  data-background-image: "space.jpg"
+  data-background-opacity: "0.5"
+format:
+  organization-revealjs:
+    echo: true
+    highlight-style: github
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: "logo.png"
+    footer: "[YOUR ORG](https://example.com/)"
+---
+
+```{r}
+#| echo: false
+options(tidyverse.quiet=TRUE)
+library(tidyverse)
+```
+
+## { background-image="space.jpg" background-opacity="0.5" } 
+
+This is a slide with a background image
+
+# NEW SECTION
+
+## Bullets
+
+Remove the incremental ::: bracketed div for plain lists
+
+::: {.incremental}
+- the quick
+- brown fox
+- jumps over
+- the lazy dog
+:::
+
+## Columns
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Some text on the left of the slide
+:::
+
+::: {.column width="50%"}
+Some text on the right of the slide
+:::
+
+::::
+
+## Smaller Slide {.smaller}
+
+The text on this slide will be, um, _smaller_.
+
+## Speaker Notes
+
+This is how to add speaker notes and replace the footer on a single slide.
+
+**SPEAKER NOTES REQUIRE A WEB SERVER**
+
+::: footer
+Custom!
+:::
+
+::: {.notes}
+do re me fa so la ti doh!
+:::
+
+## Sneaky Info (Asides & Bootnotes) 
+
+This is cool! ^[No it is not] 
+
+Add `reference-location: document` to the YAML for end notes.
+
+::: aside
+I am at the bottom of the slide
+:::
+
+## Scrolly Slide {.scrollable}
+
+Overflowed content will be scrollable on this slide.
+
+## Bootnotes
+
+## A slide with a plot
+
+```{r}
+#| echo: true
+#| fig.retina: 2
+#| fig.height: 9
+#| fig.width: 16
+#| output-location: column
+# ^^ could be fragment, slide, column, column-fragment
+ggplot() +
+  geom_point(
+    data = mtcars,
+    aes(wt, mpg),
+    color = "goldenrod"
+  ) +
+  labs(
+    title = "Some Dots"
+  ) 
+```

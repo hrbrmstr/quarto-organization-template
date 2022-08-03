@@ -1,0 +1,12 @@
+title: "YOUR ORGANIZATION TITLE"
+author: "YOU"
+institute: "YOUR ORGANIZATION"
+version: 1.0.0
+contributes:
+  formats:
+    revealjs:
+      filters: [copy-resources.lua] # This is so resources get copied
+      theme: [default, theme.scss]
+      format-resources:
+        - logo.png
+        - space.jpg
